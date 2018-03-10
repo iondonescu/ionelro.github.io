@@ -1,3 +1,4 @@
+/*Reset container attributes for best view.*/
 .container{
      float: none;
      margin: 0 0 0 0;
@@ -5,26 +6,22 @@
      width: 100%;
      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
+/*Set feature bar attributes.*/
  .feature {
      padding: 5px 0 0 0;
-     font-size: 25px;
+     font-size: 1.8em;
      text-shadow: 2px 2px 4px grey;
 }
+/*Set logo image attributes.*/
  .logoImage{
     width:70px;
     height:70px;
 }
-/*.citat {
-     padding: 150px 0 50px 0;
-}
-*/
+/*Hide collapsable content.*/
  .collapse2, .card-clps-title{
      display: none;
 }
-/*.panel-group{
-     padding-top:0.4rem;
-}
-*/
+/*Main picture attributes.*/
  .fixed-image {
      background-position: center center;
      background-repeat: no-repeat;
@@ -35,6 +32,7 @@
      -webkit-background-size: cover;
      background-size: cover;
 }
+/*Main picture bar attributes.*/
  .bar {
      background-image:url("../images/bar.png");
      background-size: cover;
@@ -42,24 +40,30 @@
      width:100%;
      margin-top: 250px;
 }
+/*Remove bullet points.*/
  ul, li, i{
     list-style-type: none;
 }
+/*Footer images dimentions.*/
  .img-w3 {
      width: 10rem;
 }
  .img-b{
      width: 7rem;
 }
+/*Set card tittle color.*/
  .card-title{
      color: #2d3c49;
 }
+/*Align student name.*/
  .student{
      padding: 7px 0px 0px 0px;
      text-shadow: 2px 2px 4px grey;
 }
+/*Reset card attributes for best view.*/
  .card{
      position: absolute;
+	 height:100%;
      border: 1px solid #333;
      margin: 2% 0 2% 0;
      padding: 0 0 0 0;
@@ -70,6 +74,7 @@
      transition: all 0.3s;
      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
+/*Zoom efect on picture - hover.*/
  img {
      max-width: 100%;
      height:100%;
@@ -83,6 +88,7 @@
      transform: scale(1.1);
      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
+/*Tablet devides breackpoint.*/
  @media screen and (max-width:767px) {
     /*Hide fixed card content */
      .card-text, .card-title, ul.list-group, .img-b, .img-w3{
@@ -91,6 +97,7 @@
      .last{
         width:700px;
     }
+	/*Change main image with smaller one */
      .fixed-image {
         background-image:url('../images/Fereastrajpg600.jpg');
     }
@@ -98,6 +105,7 @@
      ul.collapse2, .card-clps-title{
          display: inline;
     }
+	/*Fond size reduction for better view*/
      .copyright{
         font-size:1.0em;
     }
@@ -110,10 +118,12 @@
      .card-clps-title, .card-link, .card-text, .list-group-item{
         font-size:1.3em;
     }
+	/*Force contact layout to resize for all social icon inclusion on small devices*/
      h1.contact{
         width:250px;
     }
 }
+/*Iphone devides breackpoint. Fond size reduction for better view*/
  @media screen and (max-width:414px) {
      .copyright{
         font-size:0.9em;
@@ -127,13 +137,16 @@
      .card-clps-title, .card-link, .card-text, .list-group-item{
         font-size:1.2em;
     }
+	/*Resize main image for small devices view */
      .fixed-image {
         height: 350px;
     }
+	/*Resize second card to force align it in canavas*/
      .second{
         width:400px;
     }
 }
+ /*Small devides breackpoint. Fond size reduction for better view*/
  @media screen and (max-width:345px) {
      .copyright{
         font-size:0.7em;
