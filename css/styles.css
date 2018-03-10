@@ -98,7 +98,7 @@
 /*Tablet devides breackpoint.*/
  @media screen and (max-width:767px) {
     /*Hide fixed card content */
-     .card-text, .card-title, ul.list-group, {
+     .card-text, .card-title, ul.list-group {
          display: none;
     }
 	/*Change last card width to force align bottom */
