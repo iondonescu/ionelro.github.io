@@ -47,9 +47,11 @@
 /*Footer images dimentions.*/
  .img-w3 {
      width: 10rem;
+	 padding-top:0.7rem;
 }
  .img-b{
      width: 7rem;
+	 padding-top:0.7rem;
 }
 /*Set card tittle color.*/
  .card-title{
