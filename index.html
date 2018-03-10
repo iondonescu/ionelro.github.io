@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <!--animate CSS-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -34,11 +35,12 @@
          <section  class="banner w-100">
             <div class="container fixed-image text-white">
                <div class="row align-middle">
-               <article class="bar feature text-center citat">
-                  <h4>Minds are like parachutes.</h4>
-                  <p>They only function when open.</p>
-               </article>
-            </div></div>
+                  <article class="bar feature text-center citat">
+                     <h4>Minds are like parachutes.</h4>
+                     <p>They only function when open.</p>
+                  </article>
+               </div>
+            </div>
          </section>
          <!-- banner end -->
       </section>
@@ -48,47 +50,86 @@
       <section class="container">
          <div class="row">
             <div class="col order-first">
-               <div class="card w-90 first">
-                  <img class="card-img-top" sizes="33vw" src="images/artPixel_600.jpg" srcset="images/artPixel_400.jpg 400w, images/artPixel_600.jpg 600w" alt="Pixel art project">
-                  <div class="card-overlay top"></div>
-                  <div class="card-body">
-                     <h5 class="card-title">Pixel art project</h5>
-                     <p class="card-text"><strong>TASKS:</strong> build a single-page to draw pixel art on a customizable canvas</p>
+               <div class="card w-90">
+                  <a href="http://w-design.ro/pa_index.html"><img class="card-img-top" sizes="33vw" src="images/artPixel_600.jpg" srcset="images/artPixel_400.jpg 400w, images/artPixel_600.jpg 600w" alt="Pixel art project"></a>
+                  <div class="panel-group">
+                     <div class="panel panel-default">
+                        <div class="card-body">
+                           <h5 class="card-title">Pixel art</h5>
+                           <p class="card-text"><strong>TASKS:</strong>build a page to draw pixel art on a customizable canvas</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item list-group-item-action"><strong>Languages:</strong> CSS, Html</li>
+                           <li class="list-group-item list-group-item-action"><strong>Customisation:</strong> delete button, toogle class, rounded pixels</li>
+                        </ul>
+                     </div>
                   </div>
-                  <ul class="list-group list-group-flush">
-                     <li class="list-group-item list-group-item-action"><strong>Languages:</strong> CSS, Html</li>
-                     <li class="list-group-item list-group-item-action"><strong>Customisation:</strong> delete button, toogle class, rounded pixels</li>
-                  </ul>
-                  <div class="card-body list-group-item list-group-item-action">
-                     <a href="http://w-design.ro/pa_index.html" class="card-link">Pixel art link</a>
+                  <div class="panel-group">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center">
+                           <h5 class="card-clps-title card-title">
+                              <a data-toggle="collapse" href="#collapse4"><i class="fas fa-plus-circle"></i></a>Pixel art
+                           </h5>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                           <ul class="collapse2 list-group list-group-flush">
+                              <li class="list-group-item"><strong>TASKS:</strong> build a page to draw pixel art on a customizable canvas</li>
+                              <li class="list-group-item list-group-item-action"><strong>Languages:</strong> CSS, Html</li>
+                              <li class="list-group-item list-group-item-action"><strong>Customisation:</strong> delete button, toogle class, rounded pixels </li>
+                           </ul>
+                        </div>
+                        <div class="card-body list-group-item list-group-item-action">
+                           <a href="http://w-design.ro/b_index.html" class="card-link">Pixel art link</a>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
             <div class="col order-last">
                <div class="card w-90 last">
-                  
+                  <a href="http://w-design.ro/b_index.html">
                   <img class="card-img-top"  sizes="33vw" src="images/brTown_600.jpg" srcset="images/brTown_200.jpg 200w, images/brTown_400.jpg 400w, images/brTown_600.jpg 600w" alt="Brighton Times project">
-                  
-                  <div class="card-body">
-                     <h5 class="card-title">Brighton Times project</h5>
-                     <p class="card-text"><strong>TASKS:</strong> customize a web page to become responsive</p>
+                  </a>
+                  <div class="panel-group">
+                     <div class="panel panel-default">
+                        <div class="card-body">
+                           <h5 class="card-title">Brighton Times</h5>
+                           <p class="card-text"><strong>TASKS:</strong> customize a web page to become responsive</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item list-group-item-action"><strong>Languages:</strong> CSS, Html</li>
+                           <li class="list-group-item list-group-item-action"><strong>Customisation:</strong> ellipsis, responsive images, breackpoints</li>
+                        </ul>
+                     </div>
                   </div>
-                  <ul class="list-group list-group-flush">
-                     <li class="list-group-item list-group-item-action"><strong>Languages:</strong> CSS, Html</li>
-                     <li class="list-group-item list-group-item-action"><strong>Customisation:</strong> ellipsis, responsive images, page breacpoints</li>
-                  </ul>
-                  <div class="card-body list-group-item list-group-item-action">
-                     <a href="http://w-design.ro/b_index.html" class="card-link">Brighton Times link</a>
+                  <div class="panel-group">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center">
+                           <h5 class="card-clps-title card-title">
+                              <a data-toggle="collapse" href="#collapse3"><i class="fas fa-plus-circle"></i></a>Brighton Times
+                           </h5>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                           <ul class="collapse2 list-group list-group-flush">
+                              <li class="list-group-item"><strong>TASKS:</strong> customize a web page to become responsive</li>
+                              <li class="list-group-item list-group-item-action"><strong>Languages:</strong> CSS, Html</li>
+                              <li class="list-group-item list-group-item-action"><strong>Customisation:</strong> ellipsis, responsive images, breackpoints </li>
+                           </ul>
+                        </div>
+                        <div class="card-body list-group-item list-group-item-action">
+                           <a href="http://w-design.ro/b_index.html" class="card-link">Brighton Times link</a>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
             <div class="col">
-               <div class="card w-90">
-                  <img class="card-img-top"  sizes="33vw" src="images/aCard_600.jpg" srcset="images/aCard_200.jpg 200w, images/aCard_400.jpg 400w, images/aCard_600.jpg 600w" alt="Card image cap">
+               <div class="card w-90 second">
+                  <a href="http://w-design.ro/card.html"><img class="card-img-top"  sizes="33vw" src="images/aCard_600.jpg" srcset="images/aCard_200.jpg 200w, images/aCard_400.jpg 400w, images/aCard_600.jpg 600w" alt="Card image cap"></a>
                   <div class="panel-group">
                      <div class="panel panel-default">
                         <div class="card-body">
-                           <h5 class="card-title">Animal card project</h5>
+                           <h5 class="card-title">Animal card</h5>
                            <p class="card-text"><strong>TASKS:</strong> re-create a webpage from a design prototype</p>
                         </div>
                         <ul class="list-group list-group-flush">
@@ -101,7 +142,7 @@
                      <div class="panel panel-default">
                         <div class="panel-heading text-center">
                            <h5 class="card-clps-title card-title">
-                              <a data-toggle="collapse" href="#collapse1"><i class="fas fa-plus-circle"></i></a>Animal card project
+                              <a data-toggle="collapse" href="#collapse1"><i class="fas fa-plus-circle"></i></a>Animal card
                            </h5>
                         </div>
                         <div id="collapse1" class="panel-collapse collapse">
