@@ -64,7 +64,32 @@ Files are organized with a directory structure that separates files based on fun
 - [Optional] When quoting attribute values, code uses double quotation marks.
 
 #### HTML Style Rules
-- HTML documents use HTML5 <!doctype html>.
-- Code passes HTML and CSS validators.
-- \*[Optional] Code does not use entity references unless necessary e.g. characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
+- `HTML` documents use `HTML5` `<!doctype html>`.
+- Code passes `HTML` and `CSS` validators.
+- \*[Optional] Code does not use entity references unless necessary e.g. characters with special meaning in `HTML` (like < and &) as well as control or “invisible” characters (like no-break spaces).
 - [Optional] Code omits type attributes for style sheets and scripts.
+
+#### CSS Formatting Rules
+- Code does not have trailing white spaces.
+- Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
+- Code indents all block content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
+- Code uses a semicolon after every declaration for consistency and extensibility reasons.
+- Code always uses a space after a property name's colon, but no space between property and colon, for consistency reasons.
+- Code always use a single space between the last selector and the opening brace that begins the declaration block.
+- Code always start a new line for each selector and declaration.
+- Code always put a blank line (two line breaks) between rules.
+- [Optional] Code uses double quotation marks for attribute selectors or property values. Do not use quotation marks in `URI` values `(url())`.
+
+#### CSS Style Rules
+- Code uses meaningful or generic ID and class names that are as short as possible but as long as necessary.
+- Code does not use element names in conjunction with IDs or classes.
+- Code uses shorthand properties where possible.
+- [Optional] Code omits unit specification after 0 values.
+- [Optional] Code includes leading 0s in decimal values for readability.
+- [Optional] Code uses 3-character hexadecimal notation where possible.
+- [Optional] Code separate words in ID and class names by a hyphen.
+- [Optional] Code avoids user agent detection as well as `CSS` "hacks"—try a different approach first.
+
+#### General Meta Rules
+- `HTML` templates and documents use `UTF-8` encoding. (no `BOM`) i.e. `<meta charset="utf-8">`.
+\*[Optional] Mark todos and action items with `TODO`
