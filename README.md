@@ -23,6 +23,17 @@ No `<div>` or `<section>` tags are without a CSS class or id.
 - Page utilizes a grid-based layout with styles making use of the `flexbox` layout or a framework like `Bootstrap`, `Foundation`, etc.
 - If you're using `Bootstrap`: the rows and columns of the grid must be wrapped in an element with a container class.
 
+### Responsiveness
+
+#### Cross-Device Compatibility
+All content is responsive and displays on all display sizes. This includes:
+
+- Desktop
+- Mobile: Google Nexus 5
+- Tablet: Apple iPad
+
+An image's associated title and text renders next to the image in all viewport sizes.
+
 
 CRITERIA | MEETS SPECIFICATIONS
 ----------------- | ----------------------------------------------------------------------------------------
