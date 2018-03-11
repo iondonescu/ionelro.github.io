@@ -34,14 +34,11 @@ All content is responsive and displays on all display sizes. This includes:
 
 An image's associated title and text renders next to the image in all viewport sizes.
 
+#### Provide All Content
+All content is rendered on all three devices. No content should be hidden on mobile devices.
 
-CRITERIA | MEETS SPECIFICATIONS
------------------ | ----------------------------------------------------------------------------------------
-Required Elements | The page at minimum includes all of the following:
-                   - [x] at least 4 images
+#### Viewport meta Tag
+Viewport `meta` tag is included in `HTML`. `(i.e. <meta name=”viewport” …)`
 
-
-| - [x] title text (h1, h2, etc.)                   | - [x] regular (paragraph) text  
-                  | - [x] a logo
-
-Content in the first column | Content in the second column
+##### Responsive Images
+If a CSS framework is used, classes provided by the CSS framework are used to make images responsive, otherwise media-queries are used to ensure responsiveness of images.
