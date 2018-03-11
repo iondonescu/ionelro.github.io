@@ -11,10 +11,7 @@ The page at minimum includes all of the following:`
 
 #### Semantic HTML
 HTML5 semantic tags such as `<header>`, `<footer>`, `<article>`, `<section>` etc. are used to add meaning to the code.`
-- at least 4 images
-- title text (h1, h2, etc.)
-- regular (paragraph) text
-- a logo.
+No `<div>` or `<section>` tags are without a CSS class or id.
 
 
 CRITERIA | MEETS SPECIFICATIONS
