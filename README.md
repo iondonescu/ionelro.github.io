@@ -2,7 +2,7 @@
 
 **Design**
 
-##Required Elements>
+## Required Elements
 
 Semantic HTML**
 
