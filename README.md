@@ -42,3 +42,16 @@ Viewport `meta` tag is included in `HTML`. `(i.e. <meta name=”viewport” …)
 
 ##### Responsive Images
 If a CSS framework is used, classes provided by the CSS framework are used to make images responsive, otherwise media-queries are used to ensure responsiveness of images.
+
+### Separation of Concerns
+
+#### Styles Separated From HTML
+Portfolio completely separates structure (`HTM`L) from design/style (`CSS`). There are no `style` attributes present in the body of the `HTML` document. There are no `<style> `elements in the document.
+
+#### File structure
+Files are organized with a directory structure that separates files based on functionality. For example:
+`css`/ for stylesheets
+`img`/ for images
+`js`/ for JavaScript files
+
+
