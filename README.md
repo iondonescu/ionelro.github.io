@@ -1,8 +1,8 @@
 ## Build a Portfolio Site
 
-**Design**
+### **Design**
 
-## Required Elements
+#### Required Elements
 
 Semantic HTML**
 
