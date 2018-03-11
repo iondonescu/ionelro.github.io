@@ -1,13 +1,12 @@
-## Build a Portfolio Site 
+## Build a Portfolio Site
 
-| 
- | ****
+**Design**
 >
 >
 >
 >
 
-**Semantic HTML**
+Semantic HTML**
 
 CRITERIA | MEETS SPECIFICATIONS
 ----------------- | ----------------------------------------------------------------------------------------
