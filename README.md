@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Build a Portfolio Site
 
-You can use the [editor on GitHub](https://github.com/IonelRO/.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### **Design**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Required Elements
+The page at minimum includes all of the following:`
+- at least 4 images
+- title text (h1, h2, etc.)
+- regular (paragraph) text
+- a logo.
 
-### Markdown
+#### Semantic HTML
+HTML5 semantic tags such as `<header>`, `<footer>`, `<article>`, `<section>` etc. are used to add meaning to the code.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+No `<div>` or `<section>` tags are without a CSS class or id.
 
-```markdown
-Syntax highlighted code block
+#### Custom Design
+- Customize images and text.
+- Customize placement of the elements on the page (grid layout) with `HTML`, `CSS` or both.
+- Customize CSS styles applied at minimum to paragraph and heading elements.
 
-# Header 1
-## Header 2
-### Header 3
+CRITERIA | MEETS SPECIFICATIONS
+----------------- | ----------------------------------------------------------------------------------------
+Required Elements | The page at minimum includes all of the following:
+                   - [x] at least 4 images
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+| - [x] title text (h1, h2, etc.)                   | - [x] regular (paragraph) text  
+                  | - [x] a logo
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IonelRO/.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Content in the first column | Content in the second column
