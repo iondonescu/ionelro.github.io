@@ -12,7 +12,7 @@
 CRITERIA | MEETS SPECIFICATIONS
 ----------------- | ----------------------------------------------------------------------------------------
 Required Elements | The page at minimum includes all of the following:
-- [x] at least 4 images
+                   - [x] at least 4 images
 
 
 | - [x] title text (h1, h2, etc.)                   | - [x] regular (paragraph) text  
