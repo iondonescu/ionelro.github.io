@@ -1,7 +1,7 @@
 ## Build a Portfolio Site 
 
-CRITERIA| MEETS SPECIFICATIONS
-Required Elements | **The page at minimum includes all of the following:**
+| 
+ | ****
 >at least 4 images
 >title text (h1, h2, etc.)
 >regular (paragraph) text
@@ -9,7 +9,7 @@ Required Elements | **The page at minimum includes all of the following:**
 
 **Semantic HTML**
 
-First Header | Second Header
+CRITERIA | MEETS SPECIFICATIONS
 ------------ | -------------
-Content from cell 1 | Content from cell 2
+Required Elements | The page at minimum includes all of the following:
 Content in the first column | Content in the second column
