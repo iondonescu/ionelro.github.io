@@ -46,7 +46,7 @@ If a CSS framework is used, classes provided by the CSS framework are used to ma
 ### Separation of Concerns
 
 #### Styles Separated From HTML
-Portfolio completely separates structure (`HTM`L) from design/style (`CSS`). There are no `style` attributes present in the body of the `HTML` document. There are no `<style> `elements in the document.
+Portfolio completely separates structure (`HTML`) from design/style (`CSS`). There are no `style` attributes present in the body of the `HTML` document. There are no `<style> `elements in the document.
 
 #### File structure
 Files are organized with a directory structure that separates files based on functionality. For example:
@@ -54,4 +54,11 @@ Files are organized with a directory structure that separates files based on fun
 `img`/ for images
 `js`/ for JavaScript files
 
+### Code Quality
 
+#### HTML Formatting rules
+- All code ( `HTML` element names, attributes, attribute values) is lowercase (except `text/CDATA`).
+- Code does not have trailing white spaces.
+- Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
+- Code uses a new line for every block, list or table element and indent every such child element (it's acceptable to put all `<li>` elements in one line).
+- [Optional] When quoting attribute values, code uses double quotation marks.
