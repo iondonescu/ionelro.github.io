@@ -1,10 +1,7 @@
 ## Build a Portfolio Site
 
 **Design**
-
 ##Required Elements
-CRITERIA
->
 >
 >
 >
