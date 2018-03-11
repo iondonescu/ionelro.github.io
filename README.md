@@ -9,3 +9,7 @@ Required Elements | **The page at minimum includes all of the following:**
 
 **Semantic HTML**
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
