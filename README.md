@@ -9,8 +9,8 @@ The page at minimum includes all of the following:`
 - regular (paragraph) text
 - a logo.
 
-#### Required Elements
-The page at minimum includes all of the following:`
+#### Semantic HTML
+HTML5 semantic tags such as `<header>`, `<footer>`, `<article>`, `<section>` etc. are used to add meaning to the code.`
 - at least 4 images
 - title text (h1, h2, etc.)
 - regular (paragraph) text
