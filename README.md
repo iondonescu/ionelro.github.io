@@ -1,8 +1,7 @@
 ## Build a Portfolio Site
 
 **Design**
-##Required Elements
->
+##Required Elements>
 >
 >
 
