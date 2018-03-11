@@ -62,3 +62,9 @@ Files are organized with a directory structure that separates files based on fun
 - Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
 - Code uses a new line for every block, list or table element and indent every such child element (it's acceptable to put all `<li>` elements in one line).
 - [Optional] When quoting attribute values, code uses double quotation marks.
+
+#### HTML Style Rules
+- HTML documents use HTML5 <!doctype html>.
+- Code passes HTML and CSS validators.
+- \*[Optional] Code does not use entity references unless necessary e.g. characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
+- [Optional] Code omits type attributes for style sheets and scripts.
