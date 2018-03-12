@@ -21,7 +21,7 @@
 }
 
 /*Hide collapsable content.*/
- .collapse2, 
+ .collapse2,
  .card-clps-title {
      display: none;
 }
@@ -48,8 +48,8 @@
 }
 
 /*Remove bullet points.*/
- ul, 
- li, 
+ ul,
+ li,
  i {
     list-style-type: none;
 }
@@ -115,59 +115,59 @@
 /*Tablet devides breackpoint.*/
  @media screen and (max-width:767px) {
     /*Hide fixed card content */
-     .card-text, 
-	 .card-title, 
+     .card-text,
+	 .card-title,
 	 ul.list-group {
          display: none;
     }
-	
+
 	/*Change last card width to force align bottom */
      .last {
         width: 700px;
     }
-	
+
 	/*Change main image with smaller one */
      .fixed-image {
         background-image: url(../images/Fereastrajpg600.jpg);
     }
-	
+
     /*Show colapsed card content*/
-     ul.collapse2, 
-	 .card-clps-title {
+     .collapse2,
+     .card-clps-title {
          display: inline;
     }
-	
+
 	/*Fond size reduction for better view*/
      .copyright {
         font-size: 1.0em;
     }
-	
+
      .feature {
         font-size: 1.1em;
     }
-     .student, 
+     .student,
 	 .contact {
         font-size: 1.7em;
     }
-	
-     .card-clps-title, 
-	 .card-link, 
-	 .card-text, 
+
+     .card-clps-title,
+	 .card-link,
+	 .card-text,
 	 .list-group-item {
         font-size: 1.3em;
     }
-	
+
 	/*Forcefooter layouts to resize for all social icon inclusion on small devices*/
      .img-w3 {
         min-width: 10em;
-		text-align: center;		
+		text-align: center;
     }
-	
+
 	.img-b {
         min-width: 7em;
 		text-align: center;
     }
-	
+
 	.contact {
         min-width: 10em;
 		text-align: center;
@@ -179,33 +179,33 @@
      .copyright {
         font-size: 0.9em;
     }
-	
+
      .feature {
         font-size: 1.3em;
     }
-	
-     .student, 
+
+     .student,
 	 .contact {
         font-size: 1.7em;
     }
-	
-     .card-clps-title, 
-	 .card-link, 
-	 .card-text, 
+
+     .card-clps-title,
+	 .card-link,
+	 .card-text,
 	 .list-group-item{
         font-size: 1.2em;
     }
-	
+
 	/*Resize main image for small devices view */
      .fixed-image {
         height: 350px;
     }
-	
+
 	/*Resize second card to force align it in canavas*/
      .second {
         width: 400px;
     }
-	
+
 	/*Move white bar for small devices*/
 	.bar {
 		margin-top: 200px;
@@ -217,19 +217,19 @@
      .copyright {
         font-size: 0.7em;
     }
-	
+
      .feature {
         font-size: 1.2em;
     }
-	
-     .student, 
+
+     .student,
 	 .contact {
         font-size: 1.5em;
     }
-	
-     .card-clps-title, 
-	 .card-link, 
-	 .card-text, 
+
+     .card-clps-title,
+	 .card-link,
+	 .card-text,
 	 .list-group-item{
         font-size: 1.1em;
     }
