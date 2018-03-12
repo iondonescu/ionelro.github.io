@@ -132,7 +132,7 @@
     }
 
     /*Show colapsed card content*/
-     .collapse2,
+     ul.collapse2,
      .card-clps-title {
          display: inline;
     }
