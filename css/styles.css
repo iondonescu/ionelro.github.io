@@ -132,10 +132,7 @@
     }
 
     /*Show colapsed card content*/
-     ul.collapse2,
-     .card-clps-title {
-         display: inline;
-    }
+     ul.collapse2, .card-clps-title {display: inline;}
 
 	/*Fond size reduction for better view*/
      .copyright {
