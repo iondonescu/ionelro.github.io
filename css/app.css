@@ -156,11 +156,11 @@ opacity: 0.9;
 
 .score-panel {
     text-align: left;
-    width: 345px;
+    width: 500px;
     margin-bottom: 10px;
 }
 
-.score-panel .stars {
+h4, .score-panel .stars {
     margin: 0;
     padding: 0;
     display: inline-block;

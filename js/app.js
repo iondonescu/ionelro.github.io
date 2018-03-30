@@ -94,7 +94,7 @@ function matched(){
     openedCards[1].classList.remove("show", "open", "no-event");
    	openedCards = [];
 	// @Game over,open modal 
-	matchedCard.length===16? openModal():"";
+	matchedCard.length===2? openModal()|| stop():"";
 	moves++;
 	stars();
 }
@@ -152,7 +152,8 @@ document.querySelector(".star1").classList.add("far", "fa-star");
 function openModal(){
    // Get the modal
   const modal = document.getElementById('myModal');
-document.getElementById("moves").textContent = `You finished the game in ${moves+1} moves`;
+document.getElementById("moves").textContent = `You finished the game in ${moves+1} moves` 
+document.getElementById("time").textContent = `Your time was ${h4.textContent} minutes`;
 
 // Get the button that opens the modal
 const btn = document.getElementById("myBtn");
@@ -178,3 +179,34 @@ window.onclick = function(event) {
 }
 
 
+// @Timer script
+var h4 = document.getElementsByTagName('h4')[0],
+    seconds = 0, minutes = 0,  t;
+
+function add() {
+    seconds++;
+    if (seconds >= 60) {
+        seconds = 0;
+        minutes++;
+       }
+    
+    h4.textContent = (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
+
+    timer();
+}
+function timer() {
+    t = setTimeout(add, 1000);
+}
+timer();
+
+
+/* Stop timer function */
+function stop() {
+    clearTimeout(t);
+}
+
+/* Clear function */
+ function clear() {
+    h4.textContent = "00:00";
+    seconds = 0; minutes = 0;
+}
