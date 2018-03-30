@@ -94,7 +94,7 @@ function matched(){
     openedCards[1].classList.remove("show", "open", "no-event");
    	openedCards = [];
 	// @Game over,open modal 
-	matchedCard.length===2? openModal()|| stop():"";
+	matchedCard.length===16? openModal()|| stop():"";
 	moves++;
 	stars();
 }
