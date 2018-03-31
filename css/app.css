@@ -283,14 +283,9 @@ opacity: 0.9;
 	 .deck {
 		width: 85%;
 			
-	}
+}
+}
 
-	.deck .card {
-		height: 125px;
-		width: 125px;
-	}
-
-	}
 /* Media query for Ihone 7+ */	
 @media screen and (max-width: 414px) {
 	.container,
@@ -312,6 +307,7 @@ opacity: 0.9;
 	}
 
 	.deck .card {
+		background: #DDDDDD url('../img/card75px.png');
 		height: 75px;
 		width: 75px;
 	}
@@ -335,6 +331,7 @@ opacity: 0.9;
 		}
 	
 		.deck .card {
+			background: #DDDDDD url('../img/card65px.png');
 			height: 65px;
 			width: 65px;
 		}
