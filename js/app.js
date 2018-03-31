@@ -151,21 +151,26 @@ function enable(){
  function stars(){
 document.querySelector(".moves").textContent = `${moves}`;
 console.log(rank);	
-if (moves < 26) {
+if (moves < 25) {
 document.querySelector(".star1").classList.add("fas", "fa-star"); 
 document.querySelector(".star2").classList.add("fas", "fa-star");  
 document.querySelector(".star3").classList.add("fas", "fa-star");
-} else if (moves == 26){
+} else if (moves == 25){
 --rank;
-document.querySelector(".star3").classList.remove("fas", "fa-star");  
+}
+else if (moves == 26){
+document.querySelector(".star3").classList.remove("fas", "fa-star"); 
 document.querySelector(".star3").classList.add("far", "fa-star");
+}else if (moves == 34){
+--rank;
 } else if (moves == 35){
---rank; 
 document.querySelector(".star2").classList.remove("fas", "fa-star"); 
 document.querySelector(".star2").classList.add("far", "fa-star");
+}else if (moves == 45){
+--rank;
 } else if (moves == 46){
 --rank;  
-document.querySelector(".star1").classList.remove("fas", "fa-star");  
+document.querySelector(".star1").classList.remove("fas", "fa-star"); 
 document.querySelector(".star1").classList.add("far", "fa-star");
 }
 	 }  ;
