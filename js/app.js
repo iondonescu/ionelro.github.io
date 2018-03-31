@@ -114,13 +114,13 @@ function unmatched(){
     openedCards[1].classList.add("unmatched");
 	openedCards[0].classList.remove("show", "open", "no-event", "selected");
     openedCards[1].classList.remove("show", "open", "no-event", "selected");
-   // @disable();
+    disable();
     setTimeout(function(){
         openedCards[0].classList.remove("show", "open", "no-event","unmatched");
         openedCards[1].classList.remove("show", "open", "no-event","unmatched");
-      //  enable();
+      enable();
         openedCards = [];
-    },300);
+    },500);
 moves++;
 stars();
 
@@ -131,6 +131,22 @@ for (var i = 0; i < cards.length; i++){
    card.addEventListener("click", displayCard);
    card.addEventListener("click", cardOpen);
    };
+ 
+ function disable(){
+    Array.prototype.filter.call(cards, function(card){
+        card.classList.add('no-events');
+    });
+}  
+
+function enable(){
+    Array.prototype.filter.call(cards, function(card){
+        card.classList.remove('no-events');
+        for(var i = 0; i < matchedCard.length; i++){
+            matchedCard[i].classList.add("no-events");
+        }
+    });
+}
+ 
    // @manage stars in game
  function stars(){
 document.querySelector(".moves").textContent = `${moves}`;
