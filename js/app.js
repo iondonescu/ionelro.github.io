@@ -169,7 +169,6 @@ document.querySelector(".star2").classList.add("far", "fa-star");
 }else if (moves == 45){
 --rank;
 } else if (moves == 46){
---rank;  
 document.querySelector(".star1").classList.remove("fas", "fa-star"); 
 document.querySelector(".star1").classList.add("far", "fa-star");
 }
