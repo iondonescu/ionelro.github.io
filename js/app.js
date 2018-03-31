@@ -29,7 +29,8 @@ let matchedCard = document.getElementsByClassName("match");
  // @description shuffles cards when page loads
 document.body.onload = startGame();
 function startGame(){
-    // @shuffle deck
+   	started = false;
+	// @shuffle deck
     cards = shuffle(cards)};
     // @remove all exisiting classes from each card
 	 for (var i = 0; i < cards.length; i++){
@@ -66,7 +67,6 @@ let displayCard = function (){
     this.classList.toggle("open");
     this.classList.toggle("show");
 	this.classList.toggle("selected");
-	timer();
 	};
 
 /*
@@ -81,7 +81,13 @@ let displayCard = function (){
  */
 // @description add opened cards to OpenedCards list and check if cards are match or not
 function cardOpen() {
-    openedCards.push(this);
+    if (!started) { // if started is false
+    second = 0; // reset the timer
+    minute = 0;
+    startTimer(); // start the timer
+    started = true; // started becomes true hence the timer isn't started at every click
+  }
+	openedCards.push(this);
 	let number = openedCards.length;
 	//temp=document.querySelectorAll(".card");
 	//console.log(temp);
@@ -141,7 +147,7 @@ document.querySelector(".star3").classList.add("far", "fa-star");
 --rank; 
 document.querySelector(".star2").classList.remove("fas", "fa-star"); 
 document.querySelector(".star2").classList.add("far", "fa-star");
-} else if (moves == 45){
+} else if (moves == 46){
 --rank;  
 document.querySelector(".star1").classList.remove("fas", "fa-star");  
 document.querySelector(".star1").classList.add("far", "fa-star");
@@ -183,9 +189,11 @@ window.onclick = function(event) {
 
 
 // @Timer script
+
+
 var h4 = document.getElementsByTagName('h4')[0],
     seconds = 0, minutes = 0,  t;
-
+function startTimer(){
 function add() {
     seconds++;
     if (seconds >= 60) {
@@ -194,22 +202,18 @@ function add() {
        }
     
     h4.textContent = (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
-
+ timer();
     
 }
 function timer() {
-    t = setTimeout(add, 1000);
+t = setTimeout(add, 1000);
 }
 
-timer();
-
+ timer();
+}
 /* Stop timer function */
 function stop() {
     clearTimeout(t);
 }
 
-/* Clear function */
- function clear() {
-    h4.textContent = "00:00";
-    seconds = 0; minutes = 0;
-}
+
