@@ -267,7 +267,24 @@ opacity: 0.9;
     cursor: pointer;
 }
 
-@media (max-width: 414px) {
+
+@media screen and (max-width: 768px) {
+	.container {
+		font-size: 1em;
+	}
+
+	.deck {
+		width: 95%;
+		
+	}
+
+	.deck .card {
+		height: 122px;
+		width: 122px;
+	}
+
+	}
+@media screen and (max-width: 414px) {
 	.container {
 		font-size: 0.8em;
 		
@@ -288,20 +305,3 @@ opacity: 0.9;
     margin-bottom: 10px;
 }
 }
-
-@media (min-width: 768px) {
-	.container {
-		font-size: 22px;
-	}
-
-	.deck {
-		width: 660px;
-		height: 680px;
-	}
-
-	.deck .card {
-		height: 122px;
-		width: 122px;
-	}
-
-	}
