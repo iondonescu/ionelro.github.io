@@ -34,8 +34,7 @@ h1 {
 }
 
 .restart {
-  display: inline-block;
-  cursor: pointer;
+   cursor: pointer;
 }
 
 /*
@@ -294,9 +293,9 @@ opacity: 0.9;
 	}
 /* Media query for Ihone 7+ */	
 @media screen and (max-width: 414px) {
-	.container {
+	.container,
+	.stars {
 		font-size: 0.8em;
-		
 	}
 	
 	.deck {
@@ -312,7 +311,8 @@ opacity: 0.9;
     text-align: left;
     width: 300px;
     margin-bottom: 10px;
-}
+	}	
+	
 }
 /* Media query for Ihone 6/7 */	
 @media screen and (max-width: 376px) {
