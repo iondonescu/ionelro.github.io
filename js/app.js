@@ -155,7 +155,7 @@ if (moves < 26) {
 document.querySelector(".star1").classList.add("fas", "fa-star"); 
 document.querySelector(".star2").classList.add("fas", "fa-star");  
 document.querySelector(".star3").classList.add("fas", "fa-star");
-} else if (moves == 25){
+} else if (moves == 26){
 --rank;
 document.querySelector(".star3").classList.remove("fas", "fa-star");  
 document.querySelector(".star3").classList.add("far", "fa-star");
