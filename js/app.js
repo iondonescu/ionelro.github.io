@@ -201,7 +201,7 @@ function timer() {
     t = setTimeout(add, 1000);
 }
 
-
+timer();
 
 /* Stop timer function */
 function stop() {
