@@ -267,23 +267,32 @@ opacity: 0.9;
     cursor: pointer;
 }
 
-
+/* Media query for IPAD */
 @media screen and (max-width: 768px) {
-	.container {
+	.container,
+	.restart {
 		font-size: 1em;
 	}
-
-	.deck {
-		width: 95%;
-		
+	
+    .deck .card.show,
+	.deck .card.unmatched,
+	.deck .card.match,
+	{
+    font-size: 25px;
+	}
+	
+	 .deck {
+		width: 85%;
+			
 	}
 
 	.deck .card {
-		height: 122px;
-		width: 122px;
+		height: 125px;
+		width: 125px;
 	}
 
 	}
+/* Media query for Ihone 7+ */	
 @media screen and (max-width: 414px) {
 	.container {
 		font-size: 0.8em;
@@ -292,12 +301,34 @@ opacity: 0.9;
 	
 	.deck {
 		width: 95%;
-		height:300px;!important
+		min-height: 430px;
 	}
 
 	.deck .card {
-		height: 3.5rem;
-		width: 3.5rem;
+		height: 75px;
+		width: 75px;
+	}
+	.score-panel {
+    text-align: left;
+    width: 300px;
+    margin-bottom: 10px;
+}
+}
+/* Media query for Ihone 6/7 */	
+@media screen and (max-width: 376px) {
+	.container {
+		font-size: 0.8em;
+		
+	}
+	
+	.deck {
+		width: 95%;
+		min-height: 430px;
+	}
+
+	.deck .card {
+		height: 65px;
+		width: 65px;
 	}
 	.score-panel {
     text-align: left;
