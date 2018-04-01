@@ -143,12 +143,12 @@ function stars() {
 		document.querySelector(".star2").classList.add("fas", "fa-star");
 		document.querySelector(".star3").classList.add("fas", "fa-star");
 	} else if (moves == 25) {
-		--rank; // after 25 moves devrement a star
+		--rank; // after 25 moves decrement a star
 	} else if (moves == 26) { //@for moves les than 26 disply 2 stars
 		document.querySelector(".star3").classList.remove("fas", "fa-star");
 		document.querySelector(".star3").classList.add("far", "fa-star");
 	} else if (moves == 44) {
-		--rank; //@ after 34 moves devrement a star
+		--rank; //@ after 34 moves decrement a star
 	} else if (moves == 45) { //@for moves les than 35 disply 1 star
 		document.querySelector(".star2").classList.remove("fas", "fa-star");
 		document.querySelector(".star2").classList.add("far", "fa-star");
