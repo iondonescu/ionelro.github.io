@@ -388,10 +388,6 @@ h4,
 	.container {
 		font-size: 0.8em;
 	}
-	.deck {
-		width: 95%;
-		min-height: 430px;
-	}
 	.deck .card {
 		background: #DDDDDD url('../img/card65px.png');
 		height: 65px;
