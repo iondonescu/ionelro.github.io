@@ -353,7 +353,7 @@ h4,
 
 /* Media query for Ihone 7+ */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
 	.container,
 	.stars,
 	.card.show,
@@ -368,11 +368,14 @@ h4,
 	.deck {
 		width: 95%;
 		min-height: 430px;
+		padding: 0 15px 0 15px;
+	    margin: 0 0 0 0;
 	}
 	.deck .card {
 		background: #DDDDDD url('../img/card75px.png');
 		height: 75px;
 		width: 75px;
+		padding: 0 25px 0 25px;
 	}
 	.score-panel {
 		text-align: left;
@@ -389,13 +392,18 @@ h4,
 		font-size: 0.8em;
 	}
 	.deck .card {
-		background: #DDDDDD url('../img/card65px.png');
-		height: 65px;
-		width: 65px;
+		background: #DDDDDD url('../img/card75px.png');
+		height: 75px;
+		width: 75px;
+		padding: 0 25px 0 25px;
 	}
 	.score-panel {
 		text-align: left;
 		width: 300px;
 		margin-bottom: 10px;
 	}
+	.deck {
+		width: 95%;
+		padding: 0 15px 0 15px;
+	    margin: 0 0 0 0;
 }
