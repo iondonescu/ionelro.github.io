@@ -144,7 +144,6 @@ a {
 	font-size: 33px;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-out;
-	animation-delay: 0;
 	animation-direction: alternate;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
@@ -156,7 +155,6 @@ a {
 	animation-name: figure;
 	animation-duration: 0.5s;
 	animation-timing-function: ease-out;
-	animation-delay: 0;
 	animation-direction: alternate;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
@@ -356,7 +354,7 @@ h4,
 @media screen and (max-width: 415px) {
 	.container,
 	.stars,
-	.card.show,
+	.card.show
 	{
 		font-size: 0.8em;
 	}
