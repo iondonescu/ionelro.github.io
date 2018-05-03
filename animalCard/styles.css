@@ -1,0 +1,42 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+#animalcard {
+    width: 300px;
+    background: #e6f7ff;
+    border: 1px solid lightgray;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 0.5em;
+    box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.18);
+}
+.stil {
+    font-style: italic;
+}
+.etichete {
+    font-weight: bold;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.pisoi {
+    border: 1px solid lightgray;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.nume {
+    border: 1px solid lightgray;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+}
+.bubu-info {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px;
+}
