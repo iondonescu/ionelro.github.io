@@ -79,6 +79,7 @@ let Player = function () {
 Player.prototype.update = function () {};
 
 Player.prototype.render = function () {
+
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
@@ -156,4 +157,5 @@ const choosePlayer = (selection) => {
             break;
     }
 }
+
 console.log (player.sprite);
