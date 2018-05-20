@@ -74,6 +74,8 @@ let Player = function () {
     this.handleInput();
 };
 
+
+
 Player.prototype.update = function () {};
 
 Player.prototype.render = function () {
@@ -130,8 +132,7 @@ function restartGame() {
     btn.onclick = () => {
         gameStart = true;
         modal.style.display = "none";
-        m_content.style.display="none";
-        
+        m_content.style.display="none";        
     }  
 };
 
@@ -144,8 +145,14 @@ const choosePlayer = (selection) => {
             case "cat":
             player.sprite = 'images/char-cat-girl.png';
             break;
-            case "black":
-            player.sprite = 'images/bird-black.png';
+            case "horn":
+            player.sprite = 'images/char-horn-girl.png';
+            break;
+            case "pink":
+            player.sprite = 'images/char-pink-girl.png';
+            break;
+            case "princess":
+            player.sprite = 'images/char-princess-girl.png';
             break;
     }
 }
