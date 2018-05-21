@@ -5,7 +5,6 @@ let gameStart = false;
 const modal = document.getElementById('myModal');
 const m_content = document.querySelector('.modal-content');
 const btn = document.getElementById("myBtn");
-
 restartGame();
 if(gameStart === true){      
                 modal.style.display = "none";
